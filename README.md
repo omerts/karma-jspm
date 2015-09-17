@@ -1,4 +1,4 @@
-### This is a form of the karma-jspm: https://github.com/Workiva/karma-jspm
+### This is a fork of the karma-jspm package: https://github.com/Workiva/karma-jspm
 # karma-jspm  [![Build Status](https://travis-ci.org/omerts/karma-jspm.svg?branch=master)](https://travis-ci.org/omerts/karma-jspm)
 
 karma-jspm includes the jspm module loader for karma runs. This allows dynamic loading of src/test files and modules. No longer do you need to worry about browserifying your src or tests before every test run!
