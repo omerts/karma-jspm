@@ -1,6 +1,6 @@
 {
-  "name": "omerts-karma-jspm",
-  "version": "2.0.0-beta.2",
+  "name": "karma-jspm-omerts",
+  "version": "2.0.0-beta.1",
   "description": "Fork of karma-jspm, which fixes 404 errors: Include jspm module loader for karma runs; allows dynamic loading of src and test files and modules",
   "main": "index.js",
   "keywords": [
