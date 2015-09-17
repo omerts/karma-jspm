@@ -15,7 +15,7 @@
  */
 
 function configureSystem(config) {
-    var baseURLPattern = /(["']baseURL["']:.*["'])(.*)(["'])/;
+    var baseURLPattern = /(["']?baseURL["']?:.*["'])(.*)(["'])/;
 
     // Fix baseURL path, by injecting base instead of the current value from config.js
     var jspmConfig = config.replace(baseURLPattern, '$1base$3');
