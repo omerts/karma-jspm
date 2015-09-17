@@ -1,7 +1,7 @@
 {
-  "name": "karma-jspm",
+  "name": "omerts-karma-jspm",
   "version": "2.0.0-beta.1",
-  "description": "Include jspm module loader for karma runs; allows dynamic loading of src and test files and modules",
+  "description": "Fork of karma-jspm, which fixes 404 errors: Include jspm module loader for karma runs; allows dynamic loading of src and test files and modules",
   "main": "index.js",
   "keywords": [
     "karma-plugin",
@@ -12,8 +12,8 @@
     "test": "gulp test"
   },
   "author": {
-    "name": "Max Peterson",
-    "email": "maxwell.peterson@workiva.com"
+    "name": "Omer Spalter fork from Max Peterson",
+    "email": "omerts3@gmail.com"
   },
   "contributors": [
     {
@@ -24,7 +24,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Workiva/karma-jspm.git"
+    "url": "git@github.com:omerts/karma-jspm.git"
   },
   "dependencies": {
     "glob": "~3.2"
